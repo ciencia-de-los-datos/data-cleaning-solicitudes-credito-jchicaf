@@ -61,7 +61,4 @@ def clean_data():
     df=df.drop(columns=['len_first_date_value'])
     df=df.drop_duplicates()
 
-
     return df
-
-
